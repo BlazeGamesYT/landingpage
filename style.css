@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+
+* {
+    font-family: Ubuntu, Arial;
+    color: #eee;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: gray;
+    background: url(images/earth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+
+    height: 100vh;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 10px;
+
+    font-size: 100px;
+}
+
+@media screen and (max-width: 1000px) {
+    h1 {
+        font-size: 10vw;
+    }
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+a {
+    background-color: #9a7eb7;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: #6f5d93;
+}
+
+p {
+    position: fixed;
+    bottom: 10px;
+}
